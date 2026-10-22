@@ -1,0 +1,10 @@
+# Ignore dotfiles, except...
+.*
+!/.gitignore
+
+# Ignore Hugo build artifacts
+public/
+resources/
+
+# Theme junk
+themes/blowfish/exampleSite/

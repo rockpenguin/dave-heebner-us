@@ -1,0 +1,15 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/getting-started/
+
+baseURL = 'https://dave.heebner.us/'
+title = 'Breadcrumbs'
+copyright = '© Dave'
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+
+theme = 'blowfish'
+
+outputs.home = ["HTML", "RSS", "JSON"]
